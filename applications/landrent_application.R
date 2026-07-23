@@ -1,7 +1,5 @@
 rm(list=ls())
 
-setwd("C:/Users/euedu/Downloads/git hub press/source codes")
-
 source("gamlss_BP.R")
 source("Residual_H_Log_Like_BP.R")
 source("criteria.R")
