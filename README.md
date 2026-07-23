@@ -38,6 +38,16 @@ Supporting functions used by the simulation scripts.
 | `criteria.R` | Functions implementing the model selection criteria studied in the paper. |
 | `Residual_H_Log_Like_BP.R` | Functions for residuals, hat matrix, log-likelihood and diagnostic quantities. |
 
+### `applications/`
+
+R scripts reproducing the real data applications presented in the paper.
+
+| File | Description |
+|------|-------------|
+| `landrent_application.R` | Application to the land rent data from Weisberg (2014). |
+| `corn_application.R` | Application to the corn yield data from Griffiths et al. (1993). |
+| `milho.dat` | Corn yield dataset used in `corn_application.R`. |
+
 ### Root directory
 
 | File | Description |
