@@ -1,6 +1,6 @@
 # BP Regression Criteria
 
-This code can be used to reproduce the simulations used in the article.
+This code can be used to reproduce the simulations used in the article "Model selection criteria in beta prime regression". 
 
 # Authors:
 Maria Eduarda da Cruz Justino, Tarciana Liberal Pereira, Tatiene Correia de Souza
