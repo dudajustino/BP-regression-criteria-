@@ -10,11 +10,18 @@ library(extraDistr)   # Additional Univariate and Multivariate Distributions
 
 ############### Corn dataset ##########################
 
-#The data provide measurements of diameter (in inches at 4.5 feet above ground), height (feet),
-#and volume (cubic feet) of wood in 31 black cherry trees felled in the Allegheny National Forest in Pennsylvania.
-#Ryan et al. (1976, p. 329).
+# Dataset available in Griffiths et al. (1993) on corn yield (pounds/acre)
+# as a function of combinations of nitrogen and phosphate fertilizer levels.
+#
+# Griffiths, W. E., Hill, R. C., & Judge, G. G. (1993).
+# Learning and Practicing Econometrics. Wiley.
+
+#X1: nitrogen level
+#X2: phosphate level
+#Y : corn yield (pounds/acre)
 
 corn <- read.table("milho.dat", header = TRUE)
+head(corn)
 
 # candidate models
 
