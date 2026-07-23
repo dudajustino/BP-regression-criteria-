@@ -38,6 +38,13 @@ Supporting functions used by the simulation scripts.
 | `criteria.R` | Functions implementing the model selection criteria studied in the paper. |
 | `Residual_H_Log_Like_BP.R` | Functions for residuals, hat matrix, log-likelihood and diagnostic quantities. |
 
+### Root directory
+
+| File | Description |
+|------|-------------|
+| `README.md` | Repository description and usage information. |
+| `sessionInfo.txt` | R session information used to generate the simulation results, including package versions and RNG settings. |
+
 ## Requirements
 
 The simulations require R and the packages used in the scripts, including
