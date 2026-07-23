@@ -2,12 +2,9 @@
 # Clear all existing objects from the workspace
 rm(list=ls())
 
-setwd("C:/Users/euedu/Downloads/git hub press/source codes")
-
 source("gamlss_BP.R")
 source("Residual_H_Log_Like_BP.R")
 source("criteria.R")
-RNGkind("Mersenne-Twister", "Inversion", "Rejection")
 
 # Packages
 library(gamlss)       # Generalized additive models for location, scale, and shap
